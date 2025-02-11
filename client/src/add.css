@@ -1,0 +1,26 @@
+form{
+    width: 20rem;
+}
+
+form textarea{
+    width: 90%;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+}
+
+form input[type="radio"]{
+    all: unset;
+    width: 0.75rem;
+    background-color: #ffffff;
+    border: 1px solid black;
+    height: 0.75rem;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    color: #000000;
+}
+
+form input[type="radio"]:checked{
+    background-color: #000000;
+}
